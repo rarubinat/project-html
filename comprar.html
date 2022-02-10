@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ven ya a comprar tu caja de gatitos en 2 opciones para toda necesidad"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Alba Rubinat" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <title>GatitES</title>
+    <meta property="og:title" content="GatitES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="#" />
+    <meta property="og:image" content="./images/thumbnail-gatites-c.png" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body-comprar">
+    <!--$Here start a navbar -->
+    <nav class="fadeINDown">
+      <a class="brand_logo" href="./index.html">
+        <img src="./assets/logo-gatites.svg" alt=""
+      /></a>
+      <div class="nav_options" id="nav_options">
+        <ul>
+          <li><a href="./faqs.html">FAQ</a></li>
+          <li><a href="./producto.html">Producto y descripción</a></li>
+
+          <button class="button-close">+</button>
+        </ul>
+      </div>
+      <button class="button-menu">
+        <img class="menu-icon" src="./assets/menu-icon.svg" alt="" />
+      </button>
+    </nav>
+    <!--Here end a navbar-->
+    <div class="buy--section">
+      <div class="buy--section__product">
+        <div class="section--procut__Image starter-pack"></div>
+        <select class="select-product" name="os0" id="product-selected">
+          <option value="StarterPack">Starter Pack</option>
+          <option value="SuperPack">Super Pack</option>
+        </select>
+        <p class="parrafo-description">
+          Miles de productos en el mercado pero nada como una caja con un gatito
+        </p>
+      </div>
+      <div class="buy--section__form">
+        <form action="">
+          <label for="name">Nombre</label>
+          <input type="text" placeholder="Tu nombre" name="name" class="data" />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="Tu correo"
+            name="email"
+            class="data"
+          />
+          <label for="phone">Télefono</label>
+          <input
+            type="number"
+            placeholder="Tu télefono"
+            name="phone"
+            class="data"
+          />
+          <input
+            type="submit"
+            class="button-product--form"
+            value="Confirmar pago"
+          />
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <img src="./assets/logo-esandries.svg" alt="" />
+      <div class="text-footer">
+        <div class="tagline">
+          <p>Hecho con</p>
+          <img src="./assets/heart-icon.svg" alt="" />
+          <p>de ESandries.</p>
+        </div>
+        <p>©2021 Alba Rubinat</p>
+        <p>Todos los derechos Reservados</p>
+      </div>
+      <a href="mailto:info@gatites.com">info@gatites.com</a>
+    </footer>
+    <script src="./master.js"></script>
+  </body>
+</html>

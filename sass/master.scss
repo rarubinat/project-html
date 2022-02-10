@@ -1,0 +1,16 @@
+@import "./settings/html-body.scss";
+@import "./settings/variables.scss";
+@import "./settings/mixins";
+@import "./settings/animations";
+
+@import "./components/navbar.scss";
+@import "./components/footer.scss";
+@import "./components/product_card.scss";
+@import "./components/button.scss";
+@import "./components/benefit";
+@import "./components/recomendation--card";
+
+@import "./layout/main.scss";
+@import "./layout/faqs.scss";
+@import "./layout/producto.scss";
+@import "./layout/comprar.scss";

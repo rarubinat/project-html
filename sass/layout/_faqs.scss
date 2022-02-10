@@ -1,0 +1,25 @@
+.faq-section {
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  padding-block-end: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: column;
+  gap: 16px;
+  h5 {
+    font: $headline5;
+  }
+  p {
+    font: $body2;
+  }
+  @include response-to(768px) {
+    height: 76.6vh;
+    padding-inline-start: 20%;
+    padding-inline-end: 20%;
+  }
+}
+
+.footer.nav {
+  background-color: azure;
+}
